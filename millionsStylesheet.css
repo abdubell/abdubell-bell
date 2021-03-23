@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* .body{
+    background-image:linear-gradient(to bottom,green,cyan);
+} */
+
+/*----------- FIRST PAGE STYLE---------------------*/
+.container{
+    background-image:linear-gradient(to bottom,green,cyan);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.welcome{
+    text-align: center;
+    color: gold;
+    
+}
+
+
+
+.firsttext{
+    font-size: 28px;
+    padding-top: 30px;
+    text-align: center;
+    padding: 30px 80px;
+    color: gold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+                         
+}
+
+.start{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 182px;
+    background-color: rgb(35, 35, 245);
+    padding: 10px 50px;
+    width: 40%;
+    letter-spacing: 10px;
+    border-radius: 30px ;
+    border: 3px solid gold;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: rgb(76, 76, 151,0.6);
+  
+}
+
+
+.starta{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px; ;
+    color: honeydew;
+}
+
+.starta:hover{
+    color: greenyellow;
+}
+
+.container-text{
+    position: absolute;
+    top: 40%;
+    left: 30%;  
+}
+
+
+.brain{
+    width: 40%;
+    height: 80%;
+    padding-top: 1%; 
+    padding-bottom: 9% ;
+    /* margin-left: 20%;
+    margin-top: 10%; */
+}
+
+.image{
+    width: 40%;
+    height: 85%; 
+    padding-bottom: 10.0%;   
+    
+}
+
+
+/*------------------------------------ SECOND PAGE STYLE----------------------------------------------*/
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+  
+  .containerdiv1 {
+    position: relative;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .milliongameimg {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .QOcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 70px 50px 50px ;
+    grid-gap: 1rem;
+    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  .questions {
+    background: rgb(6, 6, 245,0.6);
+    grid-column: 1/3;
+    grid-row: 1;
+    line-height: 40px;
+    padding-left: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid silver;
+  }
+  
+  
+  #optionA {
+    background: rgb(6, 6, 245,0.6);
+    border-radius: 15px;
+    grid-column: 1;
+    grid-row: 2;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 2px dotted silver;
+  }
+  #optionB {
+    background: rgb(6, 6, 245,0.6);
+    border-radius: 15px;
+    grid-column: 2;
+    grid-row: 2;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 2px dotted silver;
+    
+  }
+  #optionC {
+    background-color: rgb(6, 6, 245,0.6);;
+    border-radius: 15px;
+    grid-column: 3;
+    grid-row: 2;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 2px dotted silver;
+  }
+  #optionD {
+    background-color: rgb(6, 6, 245,0.6);
+    border-radius: 15px;
+    grid-column: 2;
+    grid-row: 3;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 2px dotted silver;
+  }
+  #optionA:hover {
+    background-color: cyan;
+    color: black;
+  }
+  #optionB:hover {
+    background-color: cyan;
+    color: black;
+  }
+  #optionC:hover {
+    background-color: cyan;
+    color: black;
+  }
+  #optionD:hover {
+    background-color: cyan;
+    color: black;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 43%;
+    left: 8.5%;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background: greenyellow;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .hint {
+    position: absolute;
+    top: 43%;
+    right: 8.5%;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background: greenyellow;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .containerdiv2 {
+    width: 20%;
+    height: 100vh;
+    background-image: linear-gradient(to left, cyan, whitesmoke);
+    border: 5px solid rgba(228, 196, 17, 0.945) ;
+  }
+  
+  .milliongameimg {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .moneylist {
+    font-size: 170%;
+    font-weight: 700;
+    line-height: 150%;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: rgba(228, 196, 17, 0.945);
+    list-style: none;
+  }
+  .coverPicture {
+    background-image: url(gameover.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+  }
+  .hide{
+    display: none;
+  }
+  .scoreboard {
+      background-color: greenyellow;
+  }
+  
+
+  .play{
+    text-align: center;
+    background: gold;
+    padding: 10px 50px;
+    width: 40%;
+    letter-spacing: 10px;
+    border-radius: 30px ;
+    border: 3px solid gold;
+    cursor: pointer;
+}
+
+.playa{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px; ;
+    color: honeydew;
+}
+/* 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+} */
+
